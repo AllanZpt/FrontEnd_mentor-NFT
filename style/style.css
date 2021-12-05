@@ -1,0 +1,133 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100&display=swap');
+:root{
+    --bgcolor: hsl(217, 54%, 11%);
+    --bgcard: hsl(216, 50%, 16%);
+    --linecolor: hsl(215, 32%, 27%);
+    --whitetitle: hsl(0, 0%, 100%);
+    --cyan: hsl(178, 100%, 50%) ;
+}
+    
+body {
+ 
+ background-color: var(--bgcolor);
+
+
+}
+.container {
+    margin-top: 50px;
+    font-size: 18px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: var(--bgcard);
+    width: 375px;
+    border-radius: 9px;
+    text-align: center;
+    color: rgba(145, 133, 133, 0.918);
+    
+}
+
+article{
+    text-align: left;
+    padding-left: 20px;
+    font-family: 'Outfit', sans-serif;
+    padding-right: 20px;
+
+    
+}
+
+h1{
+    text-align: left;
+    padding-left: 20px;
+    color: var(--whitetitle);
+    font-size: 1.5em;
+    font-family: 'Outfit', sans-serif;
+    width: fit-content;
+    
+    
+}
+
+h1:hover{
+    color: var(--cyan);
+    cursor: pointer;
+}
+
+.container > .coin-logo {
+    border-radius: 8px;
+    width: 350px;
+    margin-top: 12.5px;
+}
+.blue-overlay:hover{
+    background-color: var(--cyan);
+}
+.coin-logo:hover{
+    cursor: pointer;
+    
+}
+    
+.container > .inf{
+    display: flex;
+    justify-content: center;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 900;
+    
+}
+
+.inf > .value{
+    display:flex;
+    align-items: center;
+    color: var(--cyan);
+
+     
+}
+
+.inf > .time{
+    display: flex;
+    padding-left: 60px;
+    align-items: center;
+}
+
+.clock{
+    padding-right: 5px;
+}
+
+.img_currency{
+    height: 15px;
+    padding-right: 5px;
+    vertical-align: center;
+    
+}
+
+.user{
+display: flex;
+justify-content: center;
+border-top: 1px solid var(--linecolor);
+padding-top: 5px;
+align-items: center;
+margin-bottom: 15px;
+
+
+}
+
+.avatar{
+    height: 35px;
+    margin-right: 5px;
+
+    
+}
+
+.attribution{
+    padding-bottom: 10px;
+    font-size: 15px;
+    text-align: center;
+    color:rgb(180, 180, 255);
+    
+}
+
+a{
+    color: rgb(121, 121, 253);
+}
+
+a:hover{
+    cursor: pointer;
+}
